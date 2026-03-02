@@ -1,0 +1,12 @@
+{
+  "find": "active_riders",
+  "filter": {
+    "_id": "rider_8472"
+  },
+  "projection": {
+    "current_location": 1,
+    "eta_mins": 1,
+    "bag_status": 1
+  },
+  "limit": 1
+}

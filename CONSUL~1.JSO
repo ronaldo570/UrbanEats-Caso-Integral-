@@ -1,0 +1,16 @@
+{
+  "find": "active_riders",
+  "filter": {
+    "status": "AVAILABLE",
+    "current_location": {
+      "$near": {
+        "$geometry": {
+          "type": "Point",
+          "coordinates": [-3.701, 40.415]
+        },
+        "$maxDistance": 2000
+      }
+    }
+  },
+  "limit": 5
+}
