@@ -1,0 +1,20 @@
+{
+  "_id": "rider_8472",
+  "status": "DELIVERING",
+  "active_order_id": "ord_99381",
+  "current_location": {
+    "type": "Point",
+    "coordinates": [-3.703790, 40.416775] 
+  },
+  "speed_kmh": 22.5,
+  "vehicle": {
+    "type": "e-moto",
+    "battery_pct": 85
+  },
+  "bag_status": {
+    "temp_celsius": 18.2,
+    "lid_open": false,
+    "last_updated": "2026-02-27T15:25:10Z"
+  },
+  "last_telemetry_ts": "2026-02-27T15:25:15Z"
+}

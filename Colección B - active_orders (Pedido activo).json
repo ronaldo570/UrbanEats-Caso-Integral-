@@ -1,0 +1,20 @@
+{
+  "_id": "ord_99381",
+  "status": "PICKED_UP",
+  "assigned_rider_id": "rider_8472",
+  "restaurant": {
+    "id": "rest_445",
+    "name": "Burger Central"
+  },
+  "customer": {
+    "id": "cust_1029",
+    "delivery_zone": "28013", 
+    "delivery_lat_lon_obfuscated": [-3.705000, 40.420000]
+  },
+  "eta_mins": 12,
+  "event_history": [
+    {"event": "CREATED", "ts": "2026-02-27T15:10:00Z"},
+    {"event": "ACCEPTED_BY_RIDER", "ts": "2026-02-27T15:10:08Z"},
+    {"event": "PICKED_UP", "ts": "2026-02-27T15:20:30Z"}
+  ]
+}
